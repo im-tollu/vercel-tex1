@@ -1,0 +1,10 @@
+{
+  "name": "vercel-tex1",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/node": "^2.14.1"
+  }
+}
