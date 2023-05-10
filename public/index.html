@@ -9,6 +9,13 @@
 
 <body>
     <h1>Hello!</h1>
+    <div id="version-container"></div>
 </body>
+<script type="application/javascript">
+    const versionContainer = document.getElementById('version-container')
+    fetch('/api/hello')
+        .then(response => response.json())
+        .then(json => versionContainer.innerText = json.version)
+</script>
 
 </html>
